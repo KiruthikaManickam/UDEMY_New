@@ -1,0 +1,20 @@
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    border:solid 2px black;
+    background-color: aqua;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+topics_container p{
+
+    border:solid 2px black;  
+    background-color: wheat;
+    padding:10px;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
